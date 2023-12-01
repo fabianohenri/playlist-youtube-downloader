@@ -21,4 +21,4 @@ class DownloadPlaylist(Resource):
 
         response = DownloadPlaylistController.run(self.__url_playlist['url'])
         # Se existir chamo o controller
-        return {"message": f"Download de playlist concluído. Foram baixados: {str(response)} vídeos."}
+        return response

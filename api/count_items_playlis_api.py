@@ -20,7 +20,6 @@ class CountItemsPlaylistApi(Resource):
             return jsonify({"message": message})
 
         response = CountItemsPlaylistController.run(self.__url_playlist['url'])
-
+        return response
         # Se existir chamo o controller
-        return {"message": f"Download de playlist concluído. Foram baixados: "
-                           f"{str(response)} vídeos."}
+
