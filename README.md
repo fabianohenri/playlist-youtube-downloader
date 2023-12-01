@@ -24,15 +24,15 @@ Exemplos abaixo.
 ## Exemplo:
 
 #### Status da API
-http://0.0.0.0:8085/api/status
+http://0.0.0.0:8085/api/status <br>
 
 {"message": "Api respondendo com sucesso."}
 
 #### Contagem dos vídeos
 
-http://0.0.0.0:8085/playlist/count 
+http://0.0.0.0:8085/playlist/count  <br>
 Body_json = { "url": "https://www.youtube.com/playlist?list=sdfafweweawefwf "}
 
-http://0.0.0.0:8085/playlist/download 
+http://0.0.0.0:8085/playlist/download  <br>
 
 Body_json = { "url": "https://www.youtube.com/playlist?list=sdfafweweawefwf "}
